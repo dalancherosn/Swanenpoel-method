@@ -1,0 +1,17 @@
+MAXIMOS:
+Longitud de Onda:	549	Reflactancia:	4.089076e-01
+Longitud de Onda:	581	Reflactancia:	6.898333e-01
+Longitud de Onda:	623	Reflactancia:	8.582908e-01
+Longitud de Onda:	674	Reflactancia:	9.074837e-01
+Longitud de Onda:	739	Reflactancia:	9.136308e-01
+Longitud de Onda:	822	Reflactancia:	9.143469e-01
+Longitud de Onda:	931	Reflactancia:	9.148735e-01
+Longitud de Onda:	1081	Reflactancia:	9.154170e-01
+MINIMOS:
+Longitud de Onda:	561	Reflactancia:	3.518873e-01
+Longitud de Onda:	599	Reflactancia:	4.558737e-01
+Longitud de Onda:	646	Reflactancia:	4.991873e-01
+Longitud de Onda:	704	Reflactancia:	5.144687e-01
+Longitud de Onda:	778	Reflactancia:	5.239854e-01
+Longitud de Onda:	872	Reflactancia:	5.311490e-01
+Longitud de Onda:	998	Reflactancia:	5.372684e-01
