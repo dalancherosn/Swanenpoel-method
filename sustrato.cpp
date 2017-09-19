@@ -4,7 +4,7 @@
 #include <string>
 #include <cmath>
 
-float indice_sustrato(float Trans);
+double indice_sustrato(double Trans_Sustrato);
 
 int main()
 {
@@ -14,8 +14,8 @@ int main()
   int Total = 801;
   
   int Longitud_Onda[Total];
-  float Trans_Pelicula[Total];
-  float Trans_Sustrato[Total];
+  double Trans_Pelicula[Total];
+  double Trans_Sustrato[Total];
   
   std::ifstream Transmitancia;
   Transmitancia.open("datos.data");
@@ -38,7 +38,10 @@ int main()
 }
 
 
-float indice_sustrato(float Trans)
+double indice_sustrato(double Trans_Sustrato)
 {
-  return (1.0/Trans) + std::pow((1.0/Trans)-1, 0.5);
+  double a = (1/Trans_Sustrato);
+  double b = 1/std::pow(Trans_Sustrato, 2);
+  double c = std::pow(b-1, 0.5);
+  return a + c;  
 }
